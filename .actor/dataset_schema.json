@@ -1,0 +1,64 @@
+{
+  "actorSpecification": 1,
+  "title": "Dev.to Tech Articles",
+  "description": "Dataset containing Dev.to articles, author developer leads, social handles, and engagement metrics.",
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "title",
+          "authorName",
+          "authorUsername",
+          "authorGithub",
+          "authorTwitter",
+          "reactionsCount",
+          "commentsCount",
+          "readingTimeMinutes",
+          "url"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "title": {
+            "label": "Article Title",
+            "format": "text"
+          },
+          "authorName": {
+            "label": "Author",
+            "format": "text"
+          },
+          "authorUsername": {
+            "label": "Dev.to Handle",
+            "format": "text"
+          },
+          "authorGithub": {
+            "label": "GitHub",
+            "format": "text"
+          },
+          "authorTwitter": {
+            "label": "Twitter",
+            "format": "text"
+          },
+          "reactionsCount": {
+            "label": "Reactions",
+            "format": "number"
+          },
+          "commentsCount": {
+            "label": "Comments",
+            "format": "number"
+          },
+          "readingTimeMinutes": {
+            "label": "Read (min)",
+            "format": "number"
+          },
+          "url": {
+            "label": "Article URL",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "actorSpecification": 1,
+  "name": "dev-to-tech-articles-scraper",
+  "title": "Dev.to Tech Articles & Developer Leads Scraper (Fast REST API)",
+  "description": "Extract trending tech articles, developer profiles, author social handles (GitHub, Twitter, Website), tags, and engagement metrics from Dev.to. Official REST API, zero proxies, $0.003/lead.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 128,
+  "maxMemoryMbytes": 1024,
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "../Dockerfile"
+}

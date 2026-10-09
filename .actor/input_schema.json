@@ -1,0 +1,47 @@
+{
+  "title": "Dev.to Articles Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "maxItems": {
+      "title": "Maximum Articles",
+      "type": "integer",
+      "description": "Maximum number of tech articles and developer leads to extract.",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "tag": {
+      "title": "Tag / Topic Filter",
+      "type": "string",
+      "description": "Filter articles by tag (e.g., python, javascript, ai, react, devops, webdev). Leave empty for general feed.",
+      "default": "",
+      "editor": "textfield"
+    },
+    "topDays": {
+      "title": "Top Period (Days)",
+      "type": "integer",
+      "description": "Fetch top articles by timeframe (e.g. 7 for past week, 30 for past month, 365 for year). Set to 0 for rising/latest.",
+      "default": 0,
+      "minimum": 0,
+      "maximum": 365
+    },
+    "state": {
+      "title": "Content State",
+      "type": "string",
+      "description": "Feed stream mode: rising (trending discussions), fresh (newest), or all.",
+      "default": "rising",
+      "editor": "select",
+      "enum": [
+        "rising",
+        "fresh",
+        "all"
+      ],
+      "enumTitles": [
+        "Rising (Trending)",
+        "Fresh (Newest)",
+        "All Articles"
+      ]
+    }
+  }
+}

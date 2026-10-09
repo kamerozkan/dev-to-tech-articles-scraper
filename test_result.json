@@ -1,0 +1,32 @@
+{
+  "actor_name": "dev-to-tech-articles-scraper",
+  "actor_id": "PGZDMWCE8emyhIXYa",
+  "duration": 5.1,
+  "items_count": 5,
+  "sample": {
+    "id": 4819935,
+    "title": "TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It",
+    "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass             ...",
+    "url": "https://dev.to/rajan_mishra_a9f78ad216b4/touchgrass-the-open-ai-agent-that-succeeds-when-you-stop-using-it-3k1e",
+    "canonicalUrl": "https://dev.to/rajan_mishra_a9f78ad216b4/touchgrass-the-open-ai-agent-that-succeeds-when-you-stop-using-it-3k1e",
+    "authorName": "Rajan Mishra",
+    "authorUsername": "rajan_mishra_a9f78ad216b4",
+    "authorGithub": "",
+    "authorTwitter": "",
+    "authorWebsite": "",
+    "authorProfileImage": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3975109%2Fad09e739-278c-4770-aeb9-aebefc187393.png",
+    "tags": [
+      "devchallenge",
+      "hf26challenge",
+      "ai",
+      "opensource"
+    ],
+    "reactionsCount": 21,
+    "positiveReactionsCount": 21,
+    "commentsCount": 1,
+    "readingTimeMinutes": 5,
+    "publishedAt": "2026-10-08T20:24:00Z",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Faiwithrajan%2Ftouchgrass%2Fmain%2Ftouchgrass_cover.png",
+    "extractedAt": "2026-10-09T06:02:58.202267+00:00"
+  }
+}

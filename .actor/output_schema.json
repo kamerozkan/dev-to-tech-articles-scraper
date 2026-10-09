@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Dev.to Tech Articles Output",
+  "description": "Structured dataset of Dev.to articles, developer profiles, and engagement metrics.",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Dev.to Articles Dataset",
+      "description": "Default dataset containing extracted articles and developer leads.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}
